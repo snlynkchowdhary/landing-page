@@ -1,0 +1,231 @@
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  padding-top: 70px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+h2,
+h3 {
+  color: #222;
+  font-weight: 500;
+}
+
+p {
+  line-height: 1.4;
+}
+
+button {
+  background: #3882f6;
+  color: #f9faf8;
+  outline: none;
+  border: 0;
+  border-radius: 0.5rem;
+  padding: 0.6rem 2rem;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+button:hover {
+  background: #f9faf8;
+  color: #3882f6;
+  cursor: pointer;
+}
+
+header,
+footer,
+.hero {
+  background: #1f2937;
+}
+
+a,
+.hero-subtitle,
+.logo,
+footer,
+.signup-text p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+#features,
+#testimonials {
+  padding-top: 90px;
+}
+
+.features-container,
+.testimonials-container {
+  padding: 4rem 1rem 0;
+  gap: 2rem;
+}
+
+header,
+.hero,
+.features-container,
+.testimonials-container,
+#signup,
+.signup-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/**************************** Header ***********************************/
+header {
+  justify-content: space-around;
+  padding: 1.5rem 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  gap: 0 10rem;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo-img {
+  width: 25px;
+  padding-right: 0.2rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: rgba(229, 231, 235, 0.781);
+}
+
+/************************* Hero Section ********************************/
+.hero {
+  gap: 3rem;
+  min-height: 82vh;
+}
+
+.hero-text,
+.hero-img {
+  max-width: 450px;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.hero-subtitle {
+  margin: 0.8rem 0;
+}
+
+/************************* Features Section ********************************/
+#features {
+  min-height: 80vh;
+}
+
+.feature {
+  max-width: 250px;
+  text-align: center;
+}
+
+.feature-text h3 {
+  margin: 0.5rem 0 1rem;
+}
+
+.feature-text p {
+  color: #333;
+}
+
+.feature i {
+  color: #3882f6;
+  font-size: 3rem;
+}
+
+/************************* Testimonials Section ********************************/
+#testimonials {
+  min-height: 90vh;
+  background: #e5e7eb;
+}
+
+.testimonial {
+  max-width: 250px;
+}
+
+.testimonial-text {
+  font-weight: 300;
+  font-style: italic;
+  color: #333;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.user-img {
+  max-width: 40px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-right: 0.5rem;
+}
+
+.user .name {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.user .designation {
+  font-size: 12px;
+  color: #444;
+}
+
+/************************* Signup Section ********************************/
+#signup {
+  min-height: 50vh;
+}
+
+.signup-container {
+  background: #3882f6;
+  padding: 2.5rem 1rem;
+  border-radius: 10px;
+  width: 70%;
+  gap: 6rem;
+}
+
+.signup-text h2 {
+  color: #f9faf8;
+}
+
+#signup button {
+  border: 3px solid #f9faf8;
+}
+
+#signup button:hover {
+  background: #f9faf8;
+  color: #3882f6;
+}
+
+/******************************** Footer **********************************/
+footer {
+  padding: 2rem;
+  text-align: center;
+  font-size: 15px;
+  word-spacing: 0.1rem;
+}
